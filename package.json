@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "inspector": "eslint --inspect-config",
+    "lint": "eslint .",
+    "lint:f": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.11.1",
+    "@eslint/json": "^0.5.0",
+    "@eslint/markdown": "^6.1.1",
     "eslint": "^9.11.1",
     "eslint-plugin-react": "^7.37.1",
     "globals": "^15.10.0",
