@@ -25,6 +25,7 @@ export default [
       // "no-irregular-whitespace": "off",
     },
   },
+
   // lint MARKDOWN files
   {
     files: ["**/*.md"],
