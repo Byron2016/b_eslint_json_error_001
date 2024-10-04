@@ -6,9 +6,11 @@
     "type": "module",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
+      "test": "echo \"Error: no test specified\" && exit 1",
       "inspector": "eslint --inspect-config",
       "lint": "eslint .",
-      "lint:f": "eslint . --fix"
+      "lint:f": "eslint . --fix",
+      "lint:i": "eslint . --inspect-config"
     },
     "keywords": [],
     "author": "",
